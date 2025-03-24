@@ -5,4 +5,7 @@ def palindrome(a):
   while l<r:
     if b[l]!=b[r]:
       return False
+    l+=1
+    r-=1
   return True
+print(palindrome("madam"))
